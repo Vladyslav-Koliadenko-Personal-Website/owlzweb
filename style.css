@@ -144,3 +144,6 @@ nav .fa{
     color: black;
     text-decoration: none;
 }
+.centered {
+	text-align: center;
+}
