@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vlad K Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="\\wsl.localhost\Ubuntu\home\owlz\webdev\Coursework\block09\font-awesome-4.7.0\css\font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/owlzlogo.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>                           
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+    
+        </nav>
+    <div class="text-box">
+        <h1>My Portfolio</h1>
+        <h2>Project 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+           Modi at earum fuga harum alias nobis,<br>
+           eaque optio laudantium dolor sed eligendi consequatur distinctio aperiam accusantium, 
+           architecto exercitationem perferendis minus error.</p>
+           <h2>Project 2</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Modi at earum fuga harum alias nobis,<br>
+              eaque optio laudantium dolor sed eligendi consequatur distinctio aperiam accusantium, 
+              architecto exercitationem perferendis minus error.</p>
+              <h2>Project 3</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Modi at earum fuga harum alias nobis,<br>
+                 eaque optio laudantium dolor sed eligendi consequatur distinctio aperiam accusantium, 
+                 architecto exercitationem perferendis minus error.</p>
+           <a href="index.html" class="hero-btn">HOME</a>
+    </div>
+    </section>
+
+<!------------JavaScript for Toggle Menu------------->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+<!----------------Footer----------------->
+
+<section class="footer">
+    <h4>Links</h4>
+
+        <a class="icons" href="https://www.instagram.com/owlzzzx3/" target="_blank">
+            <i class="fa fa-instagram"></i>
+        </a>
+        <a class="icons" href="https://twitter.com/ZzOw1z" target="_blank">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a class="icons" href="https://www.linkedin.com/in/vlad-k-574baa26b/" target="_blank">
+            <i class="fa fa-linkedin"></i>
+        </a>
+
+        <p>&copy; 2023 By owlzzzx3</p>
+</section>
+
+</body>
+</html>
