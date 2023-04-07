@@ -113,6 +113,14 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
+    #hero{
+        margin-top: 240px;
+    }
+}
+@media(max-height: 500px){
+    #hero{
+        margin-top: 240px;
+    }
 }
 
 /*----------footer----------*/
