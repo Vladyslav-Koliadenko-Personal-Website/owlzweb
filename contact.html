@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vlad K Main</title>
+    <title>Vlad K Contact Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,13 +28,28 @@
 
     </nav>
 
-<div class="text-box" id="hero">
-    <h1>Web Developer, Photographer, Content Creator</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-       Modi at earum fuga harum alias nobis,<br>
-       eaque optio laudantium dolor sed eligendi consequatur distinctio aperiam accusantium, 
-       architecto exercitationem perferendis minus error.</p>
-       <a href="portfolio.html" class="hero-btn">PORTFOLIO</a>
+<div class="hero1">
+    <form>
+        <div class="row">
+            <div class="input-group">
+                <input type="text" id="name" required>
+                <label for="name"><i class="fa fa-user-o"></i> Name</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="number" required>
+                <label for="number"><i class="fa fa-phone"></i> Phone#</label>
+            </div>
+        </div>
+        <div class="input-group">
+            <input type="email" id="email" required>
+            <label for="email"><i class="fa fa-envelope-o"></i> Email</label>
+        </div>
+        <div class="input-group">
+            <textarea id="message" rows="8" required></textarea>
+            <label for="message"><i class="fa fa-commenting-o"></i> Your Message</label>
+        </div>
+        <button type="submit">SUBMIT</button>
+    </form>
 </div>
 </section>
 
